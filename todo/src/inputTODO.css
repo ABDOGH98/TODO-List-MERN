@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.inputTODO__div {
+	justify-content: center;
+	display: flex;
+}
+.inputTODO__form {
+	padding-top: 100px;
+	width: 100%;
+}
+
+.inputTODO__textField {
+	min-width: 500px !important;
+}
+
+.listTODO__list {
+	overflow-wrap: break-word;
+}
+
+.inputTODO__btnADD {
+	height: 50px;
+	margin-left: 10px !important;
+}
+.listTODO__item {
+	min-height: 70px;
+}
+.listTODO__item :hover {
+	box-shadow: 11px 8px 52px -13px rgba(0, 0, 0, 0.65) !important;
+}
+
+.listTODO__itemText :hover {
+	box-shadow: none !important;
+}
