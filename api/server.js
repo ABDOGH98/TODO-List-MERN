@@ -8,7 +8,7 @@ import cors from "cors";
 const app = express();
 const port = process.env.PORT || 9000;
 const urlDB =
-	"mongodb+srv://admin:Ns94YT30izOlkV74@cluster0.jqmeb.mongodb.net/todo?retryWrites=true&w=majority";
+	"mmongodb+srv://abdo:tOZeDY0DaiwpoAPY@cluster0.jqmeb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 //Middlewares
 app.use(express.json());

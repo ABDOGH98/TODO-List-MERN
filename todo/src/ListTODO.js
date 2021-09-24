@@ -22,7 +22,6 @@ function ListTODO(props) {
 	};
 	const handleItem = (e) => {
 		setinputText(e.task);
-
 		console.log(e);
 		setInputState(true);
 	};
